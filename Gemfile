@@ -30,6 +30,8 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 gem 'rspec', '~> 3.11'
+
+gem 'sass', '~> 3.7', '>= 3.7.4'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -39,7 +41,8 @@ gem 'rspec', '~> 3.11'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', '~> 1.2022', '>= 1.2022.1'
 # Reduces boot times through caching; required in config/boot.rb
-gem "bootsnap", require: false
+gem 'bootsnap', '~> 1.11', '>= 1.11.1'
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
